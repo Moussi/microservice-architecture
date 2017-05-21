@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  contextPath: /microservice1
+
+security:
+  user:
+    name: moussi
+    password: moussi
