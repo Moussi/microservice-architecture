@@ -20,6 +20,7 @@
 
     <modules>
         <module>microservice1-server</module>
+        <module>microservice1-client</module>
         <module>microservice1</module>
     </modules>
 
@@ -28,6 +29,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <spring-cloud.version>Dalston.RELEASE</spring-cloud.version>
     </properties>
 
     <dependencies>
