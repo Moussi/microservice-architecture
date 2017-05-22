@@ -1,0 +1,6 @@
+spring:
+ cloud:
+  config:
+    server:
+      git:
+        uri: https://github.com/Moussi/microservice-architecture/tree/master/microservice1/ConfigData
