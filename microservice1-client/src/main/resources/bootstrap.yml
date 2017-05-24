@@ -1,7 +1,4 @@
 spring:
-  profiles:
-    active: northamerica
-spring:
   application:
     name: microservice1-client
   cloud:

@@ -16,7 +16,7 @@ public class LuckWorldController {
 private String luckyWord;
 
     @RequestMapping(value = "/lucky-word", method = RequestMethod.GET)
-    public String teams(@PathVariable String name){
+    public String teams(){
         return "Hello  " + luckyWord;
     }
 
