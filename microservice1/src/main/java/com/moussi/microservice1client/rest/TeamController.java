@@ -1,11 +1,9 @@
-package com.moussi.rest;
+package com.moussi.microservice1client.rest;
 
 import com.moussi.dao.TeamDao;
 import com.moussi.model.Team;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Map;
 
 /**
  * Created by moussiaymen on 18/05/17.
