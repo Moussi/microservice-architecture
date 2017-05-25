@@ -19,8 +19,15 @@
     </parent>
 
     <modules>
+        <module>microservice-eureka-server</module>
         <module>microservice-server</module>
         <module>microservice1-client</module>
+        <module>microservice-subject-client</module>
+        <module>microservice-verb-client</module>
+        <module>microservice-adjective-client</module>
+        <module>microservice-noun-client</module>
+        <module>microservice-article-client</module>
+        <module>microservice-sentence-client</module>
         <module>microservice1</module>
     </modules>
 
@@ -30,6 +37,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Dalston.RELEASE</spring-cloud.version>
+        <microservice.version>0.0.1-SNAPSHOT</microservice.version>
     </properties>
 
     <dependencies>
