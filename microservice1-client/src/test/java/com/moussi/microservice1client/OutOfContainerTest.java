@@ -55,7 +55,7 @@ public class OutOfContainerTest {
     //	Load test properties to satisfy the lucky-word placeholder:
     @Configuration
     @Import(Microservice1ClientApplication.class)
-    @PropertySource("classpath:/test.yml")
+    @PropertySource("classpath:test.properties")
     public static class Config {
     }
 

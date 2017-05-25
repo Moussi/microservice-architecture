@@ -19,7 +19,7 @@
     </parent>
 
     <modules>
-        <module>microservice1-server</module>
+        <module>microservice-server</module>
         <module>microservice1-client</module>
         <module>microservice1</module>
     </modules>

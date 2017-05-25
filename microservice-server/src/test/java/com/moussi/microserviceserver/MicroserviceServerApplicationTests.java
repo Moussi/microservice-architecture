@@ -1,4 +1,4 @@
-package com.moussi.microservice1server;
+package com.moussi.microserviceserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Microservice1ServerApplicationTests {
+public class MicroserviceServerApplicationTests {
 
 	@Test
 	public void contextLoads() {

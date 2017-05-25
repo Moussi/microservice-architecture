@@ -32,7 +32,7 @@ public class IntegrationTest {
     //	Load test properties to satisfy the lucky-word placeholder:
     @Configuration
     @Import(Microservice1ClientApplication.class)
-    @PropertySource("classpath:com.moussi.microservice1client/test.properties")
+    @PropertySource("classpath:test.properties")
     public static class Config {
 
     }
