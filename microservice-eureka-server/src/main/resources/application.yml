@@ -1,2 +1,6 @@
 server:
   port: 8010
+eureka:
+  dashboard:
+    path: /microservice-eureka
+
