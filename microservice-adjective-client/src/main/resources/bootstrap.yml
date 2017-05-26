@@ -1,3 +1,8 @@
 spring:
   application:
     name: microservice-adjective-client
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8001

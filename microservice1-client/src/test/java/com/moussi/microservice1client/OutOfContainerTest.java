@@ -48,7 +48,7 @@ public class OutOfContainerTest {
         //	Test if the client application is working with the exception of the call to the server.:
         mockMvc.perform(get("/lucky-word"))
             .andExpect(status().isOk())
-            .andExpect(content().string("The lucky word is: testing"))
+            .andExpect(content().string("The lucky word is: irish"))
         ;
     }
 

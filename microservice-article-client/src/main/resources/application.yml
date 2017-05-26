@@ -9,8 +9,5 @@ server:
 
 words: a,the
 
-spring:
-  cloud:
-    config:
-      uri: http://localhost:8001
+
 

@@ -9,8 +9,5 @@ server:
 
 words: boat,book,vote,seat,backpack,partition,groundhog
 
-spring:
-  cloud:
-    config:
-      uri: http://localhost:8001
+
 
